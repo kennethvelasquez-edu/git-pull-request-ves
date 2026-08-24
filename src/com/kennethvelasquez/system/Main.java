@@ -522,22 +522,6 @@ public class Main {
 
     }
 
-
-    /**
-     * Problema 25:
-     * Crea un arreglo con 5 números enteros y encuentra el número mayor.
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 25 mayor arreglo"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 25" \
-     * --body "Se agregó un recorrido para encontrar el valor mayor almacenado dentro de un arreglo."
-     */
     public static void estructuraBaseEjercicio25() {
         
         
