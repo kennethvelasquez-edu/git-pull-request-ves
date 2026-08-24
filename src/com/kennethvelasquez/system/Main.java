@@ -5,7 +5,7 @@ package com.kennethvelasquez.system;
 public class Main {
 
     public static void main(String[] args) {
-
+        estructuraBaseEjercicio21();
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
@@ -456,9 +456,26 @@ public class Main {
      * --title "Resolver problema 21" \
      * --body "Se agregó una comparación entre dos cadenas utilizando el método equals."
      */
-    public static void estructuraBaseEjercicio21() {
+   public static void estructuraBaseEjercicio21() {
+    String palabra1 = "hola";
+    String palabra2 = "hola";
 
+    if (palabra1.equals(palabra2)) {
+        System.out.println("Las palabras son iguales.");
+    } else {
+        System.out.println("Las palabras son diferentes.");
     }
+
+    System.out.println("ES IGUAL A " + palabra1);
+       System.out.println("PALABRA2 ES IGUAL " + palabra2);
+}
+ 
+
+    
+
+
+        
+    
 
 
     /**
