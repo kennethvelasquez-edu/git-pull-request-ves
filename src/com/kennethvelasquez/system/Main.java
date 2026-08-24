@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        estructuraBaseEjercicio23();
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
@@ -481,25 +482,13 @@ public class Main {
     public static void estructuraBaseEjercicio22() {
 
     }
-
-
-    /**
-     * Problema 23:
-     * Crea un arreglo con 5 números enteros y muestra todos sus elementos.
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 23 recorrer arreglo"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 23" \
-     * --body "Se creó un arreglo de números enteros y se agregó un recorrido para mostrar sus elementos."
-     */
+    
     public static void estructuraBaseEjercicio23() {
+        int[] numeros = {10, 25, 30, 42, 55};
 
+        for (int numero : numeros) {
+            System.out.println(numero);
+        }
     }
 
 
