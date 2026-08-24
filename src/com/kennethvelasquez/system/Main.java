@@ -539,8 +539,24 @@ public class Main {
      * --body "Se agregó un recorrido para encontrar el valor mayor almacenado dentro de un arreglo."
      */
     public static void estructuraBaseEjercicio25() {
+        
+        
+        
+        int[] numbersXDD = {12, 13, 7, 89, 28};
+        
+        int mayor = numbersXDD[0];
 
-    }
+        for (int i = 1; i < numbersXDD.length; i++) {
+            
+            if (numbersXDD[i] > mayor) {
+                mayor = numbersXDD[i];
+            }
+        }
+
+        System.out.println("El numero mas grande del array es: " + mayor);
+        
+        
+}
 
 
     /**
