@@ -129,6 +129,13 @@ public class Main {
      * --body "Se agregó una condición para determinar si una persona es mayor o menor de edad."
      */
     public static void estructuraBaseEjercicio6() {
+    int edad = 20;
+
+    if (edad >= 18) {
+        System.out.println("Es mayor de edad.");
+    } else {
+        System.out.println("Es menor de edad.");
+    }
 
     }
 
