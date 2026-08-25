@@ -456,9 +456,11 @@ public class Main {
      * --title "Resolver problema 21" \
      * --body "Se agregó una comparación entre dos cadenas utilizando el método equals."
      */
+    
+    
    public static void estructuraBaseEjercicio21() {
-    String palabra1 = "hola";
-    String palabra2 = "hola";
+    String palabra1 = "WENAAS";
+    String palabra2 = "WENAAS";
 
     if (palabra1.equals(palabra2)) {
         System.out.println("Las palabras son iguales.");
@@ -469,15 +471,16 @@ public class Main {
     System.out.println("ES IGUAL A " + palabra1);
        System.out.println("PALABRA2 ES IGUAL " + palabra2);
 }
+   
+   
+   
+   
+   
+   
+   
+   
+   
  
-
-    
-
-
-        
-    
-
-
     /**
      * Problema 22:
      * Define una palabra y muestra su primer carácter.
