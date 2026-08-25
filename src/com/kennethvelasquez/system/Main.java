@@ -655,8 +655,31 @@ public class Main {
      * --body "Se agregó una validación para determinar si un año es divisible entre cuatro."
      */
     public static void estructuraBaseEjercicio30() {
+        
+            
+            
+             int numero = 5;
 
+    for (int jijijija= 1; jijijija <= numero; jijijija++) {
+        System.out.println(jijijija);
     }
+}
+        
+
+
+        /**
+ * Problema 31:
+ * Define un número entero positivo y cuenta cuántos números
+ * existen desde 1 hasta ese número.
+ *
+ * Debes mostrar cada número utilizando un ciclo.
+ */
+
+   
+       
+
+    
+    
 
 
     /**
@@ -718,5 +741,5 @@ public class Main {
     public static void estructuraBaseEjercicio32() {
 
     }
+    }
 
-}
