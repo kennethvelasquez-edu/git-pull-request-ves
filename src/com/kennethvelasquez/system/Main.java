@@ -1,6 +1,6 @@
 package com.kennethvelasquez.system;
 
-
+import java.util.Scanner;
 
 public class Main {
 
@@ -9,21 +9,29 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
+<<<<<<< HEAD
         estructuraBaseEjercicio24();
+=======
+        estructuraBaseEjercicio29();
+        
+        
+        estructuraBaseEjercicio16();
+>>>>>>> e69c85e5257bf41a8fd7f0cf9c6a000a5ca5cd26
     }
 
-
     /**
-     * Problema 1:
-     * Solicita o define dos números enteros y muestra la suma de ambos.
+     * Problema 29: Define una nota entre 0 y 100 y muestra su clasificación:
      *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
+     * 90 - 100 = Excelente 80 - 89 = Muy bueno 70 - 79 = Bueno 60 - 69 =
+     * Aprobado 0 - 59 = Reprobado
      *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 1 suma de numeros"
-     * git push origin rama_destino
+     * Al resolver el problema y comprobar que ejecuta correctamente, borra esta
+     * sección del comentario.
      *
+<<<<<<< HEAD
+     * git add Main.java git commit -m "feat: resolver problema 29 clasificar
+     * nota" git push origin rama_destino
+=======
      * gh pr create --base tu-rama --head rama_destino \
      * --title "Resolver problema 1" \
      * --body "Se implementó la lógica necesaria para sumar dos números enteros y mostrar el resultado."
@@ -348,9 +356,17 @@ public class Main {
      * --body "Se implementó un ciclo para generar la tabla de multiplicar de un número."
      */
     public static void estructuraBaseEjercicio16() {
-
+        int numero =7 ;
+        
+        System.out.println("Tabla de multiplicar del " + numero + ":");
+        
+        for (int i = 1; i <= 10; i++) {     
+            int resultado = numero * i;
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
     }
 
+<<<<<<< HEAD
 
     /**
      * Problema 17:
@@ -624,91 +640,25 @@ public class Main {
      * --title "Resolver problema 29" \
      * --body "Se implementó una estructura condicional para clasificar una nota según diferentes rangos."
      */
+=======
+>>>>>>> e69c85e5257bf41a8fd7f0cf9c6a000a5ca5cd26
     public static void estructuraBaseEjercicio29() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese su Calificacion: ");
 
-    }
+        int nota = sc.nextInt();
 
-
-    /**
-     * Problema 30:
-     * Define un año y determina si es bisiesto.
-     *
-     * Regla simplificada:
-     * Un año divisible entre 4 puede considerarse bisiesto.
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 30 anio bisiesto"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 30" \
-     * --body "Se agregó una validación para determinar si un año es divisible entre cuatro."
-     */
-    public static void estructuraBaseEjercicio30() {
-
-    }
-
-
-    /**
-     * Problema 31:
-     * Define un número entero positivo y cuenta cuántos números
-     * existen desde 1 hasta ese número.
-     *
-     * Debes mostrar cada número utilizando un ciclo.
-     *
-     * Ejemplo:
-     * numero = 5
-     *
-     * 1
-     * 2
-     * 3
-     * 4
-     * 5
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 31 conteo numeros"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 31" \
-     * --body "Se implementó un ciclo que muestra todos los números desde uno hasta un límite definido."
-     */
-    public static void estructuraBaseEjercicio31() {
-
-    }
-
-
-    /**
-     * Problema 32:
-     * Crea un arreglo con las siguientes notas:
-     *
-     * {70, 85, 45, 90, 60}
-     *
-     * Recorre el arreglo y cuenta:
-     *
-     * - Cuántos estudiantes aprobaron.
-     * - Cuántos estudiantes reprobaron.
-     *
-     * Una nota igual o mayor a 60 se considera aprobada.
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 32 aprobados reprobados"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 32" \
-     * --body "Se recorrió un arreglo de notas para contabilizar estudiantes aprobados y reprobados."
-     */
-    public static void estructuraBaseEjercicio32() {
+        if (nota >= 90) {
+            System.out.println("Excelente");
+        } else if (nota >= 80) {
+            System.out.println("Muy bueno");
+        } else if (nota >= 70) {
+            System.out.println("Bueno");
+        } else if (nota >= 60) {
+            System.out.println("Aprobado");
+        } else {
+            System.out.println("Reprobado");
+        }
 
     }
 
