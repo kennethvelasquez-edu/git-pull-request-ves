@@ -435,6 +435,9 @@ public class Main {
      * --body "Se implementó la conversión de una cadena de texto a letras mayúsculas."
      */
     public static void estructuraBaseEjercicio20() {
+        
+        String texto = "Hola profe";
+        System.out.println(texto.toUpperCase());
 
     }
 
