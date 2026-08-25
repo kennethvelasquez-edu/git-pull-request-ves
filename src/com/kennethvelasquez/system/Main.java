@@ -33,23 +33,18 @@ public class Main {
     }
 
 
-    /**
-     * Problema 2:
-     * Define dos números enteros y muestra cuál de los dos es mayor.
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 2 numero mayor"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 2" \
-     * --body "Se agregó una comparación entre dos números para determinar cuál es mayor."
-     */
+   
     public static void estructuraBaseEjercicio2() {
+         int numero1 = 10;
+    int numero2 = 20;
 
+    if (numero1 > numero2) {
+        System.out.println("El número mayor es: " + numero1);
+    } else if (numero2 > numero1) {
+        System.out.println("El número mayor es: " + numero2);
+    } else {
+        System.out.println("Los dos números son iguales.");
+    }
     }
 
 
