@@ -1,10 +1,13 @@
 package com.kennethvelasquez.system;
 
-
+import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+public static void estructuraBaseEjercicio10(){
+   
+
+    
 
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
@@ -200,8 +203,7 @@ public class Main {
 
     }
 
-
-    /**
+   /**
      * Problema 10:
      * Define tres notas y calcula el promedio.
      * Muestra si el estudiante aprobó.
@@ -219,9 +221,12 @@ public class Main {
      * --title "Resolver problema 10" \
      * --body "Se calculó el promedio de tres notas y se agregó una validación para determinar si el estudiante aprobó."
      */
-    public static void estructuraBaseEjercicio10() {
+    //Ejercicio 10
+    
 
-    }
+    
+    
+       
 
 
     /**
