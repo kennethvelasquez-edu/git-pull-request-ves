@@ -35,16 +35,16 @@ public class Main {
 
    
     public static void estructuraBaseEjercicio2() {
-         int numero1 = 10;
-    int numero2 = 20;
+        int numero1 = 10;
+        int numero2 = 20;
 
     if (numero1 > numero2) {
         System.out.println("El número mayor es: " + numero1);
-    } else if (numero2 > numero1) {
+        } else if (numero2 > numero1) {
         System.out.println("El número mayor es: " + numero2);
-    } else {
+        } else {
         System.out.println("Los dos números son iguales.");
-    }
+        }
     }
 
 
