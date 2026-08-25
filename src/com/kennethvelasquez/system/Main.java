@@ -109,7 +109,21 @@ public class Main {
      * --body "Se implementó la comparación de tres números para encontrar el valor mayor."
      */
     public static void estructuraBaseEjercicio5() {
+        int num1 = 10;
+        int num2 = 25;
+        int num3 = 15;
 
+        int mayor = num1;
+
+        if (num2 > mayor) {
+            mayor = num2;
+        }
+
+        if (num3 > mayor) {
+            mayor = num3;
+        }
+
+        System.out.println("El número mayor es: " + mayor);
     }
 
 
