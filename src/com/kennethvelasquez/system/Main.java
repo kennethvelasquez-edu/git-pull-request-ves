@@ -11,8 +11,11 @@ public class Main {
         // Ejemplo:
         // estructuraBaseEjercicio1();
         estructuraBaseEjercicio29();
+        
+        
+        estructuraBaseEjercicio16();
     }
-
+  
     public static void estructuraBaseEjercicio22() {
 
     }
@@ -30,7 +33,6 @@ public class Main {
 
         }
     }
-    
     public static void estructuraBaseEjercicio16() {
         int numero =7 ;
         
