@@ -1,5 +1,5 @@
 package com.kennethvelasquez.system;
-
+import java.util.Scanner;
 
 
 public class Main {
@@ -15,11 +15,11 @@ public class Main {
 
     /**
      * Problema 1:
-     * Solicita o define dos números enteros y muestra la suma de ambos.
+     * cita o define dos números enteros y muestra la suma de ambos.
      *
      * Al resolver el problema y comprobar que ejecuta correctamente,
      * borra esta sección del comentario.
-     *
+     *Soli
      * git add Main.java
      * git commit -m "feat: resolver problema 1 suma de numeros"
      * git push origin rama_destino
@@ -29,7 +29,15 @@ public class Main {
      * --body "Se implementó la lógica necesaria para sumar dos números enteros y mostrar el resultado."
      */
     public static void estructuraBaseEjercicio1() {
-
+        Scanner sc = new Scanner (System.in);
+        
+        System.out.println("Ingrese su número 1");
+            int numero1 = sc.nextInt();
+        System.out.println("Ingrese su número 2");
+         int  numero2 = sc.nextInt();
+           
+        int resultado = numero1+numero2;
+        System.out.println("El resultado es: "+ resultado);
     }
 
 
