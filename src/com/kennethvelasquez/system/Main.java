@@ -304,7 +304,9 @@ public class Main {
      * --body "Se implementó un ciclo que muestra los números pares comprendidos entre 2 y 20."
      */
     public static void estructuraBaseEjercicio14() {
-
+        for (int i = 2; i <= 20; i += 2) {
+        System.out.println(i);
+        }
     }
 
 
