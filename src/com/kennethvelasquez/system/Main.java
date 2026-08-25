@@ -9,6 +9,7 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
+        estructuraBaseEjercicio27();
     }
 
     /**
@@ -512,15 +513,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el Precio del Producto :D");
-        double precio = scanner.nextDouble();  
+        double precio = scanner.nextDouble();
 
-        if (precio > 100) {
+        if (precio >= 100) {
             double descuento = precio * 0.10;
             double precioFinal = precio - descuento;
 
             System.out.println("Precio: " + precio + " | Descuento: " + descuento + " | Precio Final: " + precioFinal);
         } else {
-            System.out.println("Error: El precio debe ser mayor a Q100 para Descuento");
+            System.out.println("Precio: " + precio);
         }
 
         scanner.close();
