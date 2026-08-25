@@ -24,6 +24,7 @@ public class Main {
      * git add Main.java git commit -m "feat: resolver problema 29 clasificar
      * nota" git push origin rama_destino
      *
+
      * gh pr create --base tu-rama --head rama_destino \ --title "Resolver
      * problema 29" \ --body "Se implementó una estructura condicional para
      * clasificar una nota según diferentes rangos."
