@@ -1,5 +1,13 @@
 package com.kennethvelasquez.system;
 
+import java.util.Scanner;
+
+
+
+
+
+
+
 
 
 public class Main {
@@ -9,6 +17,7 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
+         estructuraBaseEjercicio7();
 
     }
 
@@ -129,7 +138,7 @@ public class Main {
      * --body "Se agregó una condición para determinar si una persona es mayor o menor de edad."
      */
     public static void estructuraBaseEjercicio6() {
-
+        
     }
 
 
@@ -152,7 +161,22 @@ public class Main {
      * --body "Se implementó la conversión de grados Celsius a grados Fahrenheit."
      */
     public static void estructuraBaseEjercicio7() {
-
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println(" bienvenido a tu app donde trasformas grados celsius a a farenheit");
+        System.out.println("------------------------------------------------------------------");
+        System.out.println("ingrese su grados celsius");
+        int grados = scanner.nextInt();
+        
+        int result;
+        result = (grados + (9/5) )+32;
+        
+        
+        
+        System.out.println("su resultado es  "
+                              + result );
+        
     }
 
 
