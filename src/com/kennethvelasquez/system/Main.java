@@ -9,7 +9,9 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
-
+        
+        
+        estructuraBaseEjercicio16();
     }
 
 
@@ -348,8 +350,16 @@ public class Main {
      * --body "Se implementó un ciclo para generar la tabla de multiplicar de un número."
      */
     public static void estructuraBaseEjercicio16() {
-
-    }
+        int numero =7 ;
+        
+        System.out.println("Tabla de multiplicar del " + numero + ":");
+        
+        for (int i = 1; i <= 10; i++) {     
+            int resultado = numero * i;
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
+}
+     
 
 
     /**
@@ -367,7 +377,7 @@ public class Main {
      * --title "Resolver problema 17" \
      * --body "Se agregó un acumulador para sumar los números comprendidos entre 1 y 10."
      */
-    public static void estructuraBaseEjercicio17() {
+    public static void estructuraBaseEjercicio17(){
 
     }
 
