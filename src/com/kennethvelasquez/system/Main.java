@@ -13,21 +13,36 @@ public class Main {
         estructuraBaseEjercicio29();
     }
 
-  
     public static void estructuraBaseEjercicio22() {
 
     }
-    
+
     public static void estructuraBaseEjercicio23() {
         int[] numeros = {10, 25, 30, 42, 55};
-
 
         for (int numero : numeros) {
             System.out.println(numero);
         }
+
+
+        for (int numero : numeros) {
+            System.out.println(numero);
+
+        }
+    }
+    
+    public static void estructuraBaseEjercicio16() {
+        int numero =7 ;
+        
+        System.out.println("Tabla de multiplicar del " + numero + ":");
+        
+        for (int i = 1; i <= 10; i++) {     
+            int resultado = numero * i;
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
     }
 
-  public static void estructuraBaseEjercicio29() {
+    public static void estructuraBaseEjercicio29() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese su Calificacion: ");
 
