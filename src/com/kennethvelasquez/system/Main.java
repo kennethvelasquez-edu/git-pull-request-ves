@@ -9,7 +9,7 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
-
+        estructuraBaseEjercicio24();
     }
 
 
@@ -503,24 +503,17 @@ public class Main {
     }
 
 
-    /**
-     * Problema 24:
-     * Crea un arreglo con 5 números enteros y calcula la suma de todos sus elementos.
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 24 sumar arreglo"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 24" \
-     * --body "Se implementó un recorrido de arreglo para calcular la suma de todos sus valores."
-     */
+    
     public static void estructuraBaseEjercicio24() {
-
+    int[] numeros = {12, 5, 8, 20, 15};
+    int suma = 0;
+    
+    for (int i = 0; i < numeros.length; i++) {
+        suma += numeros[i];
     }
+    System.out.println("La suma de los elementos del arreglo es: " + suma);
+    }
+    
 
 
     /**
