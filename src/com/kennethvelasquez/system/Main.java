@@ -283,9 +283,12 @@ public class Main {
      * --title "Resolver problema 13" \
      * --body "Se agregó un ciclo para mostrar en pantalla los números del 1 al 10."
      */
-    public static void estructuraBaseEjercicio13() {
-
+public static void estructuraBaseEjercicio13() {
+    // Ciclo que inicia en 1 y se ejecuta mientras sea menor o igual a 10
+    for (int i = 1; i <= 10; i++) {
+        System.out.println(i);
     }
+}
 
 
     /**
