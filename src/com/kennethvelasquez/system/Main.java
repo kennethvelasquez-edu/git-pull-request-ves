@@ -10,7 +10,6 @@ public class Main {
         // Ejemplo:
         // estructuraBaseEjercicio1();
         estructuraBaseEjercicio29();
-
         
         
         estructuraBaseEjercicio16();
@@ -362,7 +361,7 @@ public class Main {
             System.out.println(numero + " x " + i + " = " + resultado);
         }
     }
-    
+
     public static void estructuraBaseEjercicio29() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese su Calificacion: ");
