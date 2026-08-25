@@ -5,8 +5,8 @@ package com.kennethvelasquez.system;
 public class Main {
 
     public static void main(String[] args) {
-
-        // Cada alumno puede llamar temporalmente su método aquí para probarlo.
+        estructuraBaseEjercicio15();        
+// Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
 
@@ -312,9 +312,6 @@ public class Main {
      * Problema 15:
      * Utiliza un ciclo para mostrar los números del 10 al 1 en orden descendente.
      *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
      * git add Main.java
      * git commit -m "feat: resolver problema 15 cuenta regresiva"
      * git push origin rama_destino
@@ -324,8 +321,16 @@ public class Main {
      * --body "Se agregó un ciclo descendente para imprimir los números desde 10 hasta 1."
      */
     public static void estructuraBaseEjercicio15() {
-
+        for (int n = 10; n >= 1; n--) {
+            System.out.println(n);
+        }
     }
+
+  
+
+
+
+
 
 
     /**
