@@ -10,6 +10,8 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
+        estructuraBaseEjercicio9();
+
         estructuraBaseEjercicio29();
         
         
@@ -63,4 +65,13 @@ public class Main {
         }
     }
 
+
+    public static void estructuraBaseEjercicio9() {
+
+        double radio = 5.0;
+        double area = Math.PI * radio * radio;
+        System.out.println("El área del círculo es: " + area);
+
+    }
 }
+
