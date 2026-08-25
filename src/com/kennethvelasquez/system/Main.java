@@ -539,10 +539,17 @@ public class Main {
      * --body "Se agregó un recorrido para encontrar el valor mayor almacenado dentro de un arreglo."
      */
     public static void estructuraBaseEjercicio25() {
+     
 
     }
 
-
+ 
+    
+    
+    
+    
+    
+    
     /**
      * Problema 26:
      * Crea un arreglo con 5 números enteros y cuenta cuántos son pares.
@@ -558,9 +565,24 @@ public class Main {
      * --title "Resolver problema 26" \
      * --body "Se implementó un recorrido para contar cuántos números pares existen en un arreglo."
      */
-    public static void estructuraBaseEjercicio26() {
+   
 
+
+    
+
+    public static void estructuraBaseEjercicio26() {
+        int[] numeros = {10, 7, 4, 9, 12};
+        int contadorPares = 0;
+
+        for (int numero : numeros) {    
+            if (numero % 2 == 0) {
+                contadorPares++;
+            }
+        }
+
+        System.out.println("Cantidad de números pares: " + contadorPares);
     }
+
 
 
     /**
