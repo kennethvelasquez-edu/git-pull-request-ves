@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+public static void main(String args []){
+   
+
+    
 
         estructuraBaseEjercicio23();
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
@@ -15,11 +18,39 @@ public class Main {
         
         estructuraBaseEjercicio16();
     }
-  
-    public static void estructuraBaseEjercicio22() {
 
+
+
+  
+
+    public static void estructuraBaseEjercicio10() {
+
+    // Definición de las tres notas
+        double nota1 = 75.0;
+        double nota2 = 80.0;
+        double nota3 = 65.5;
+
+        // Cálculo del promedio
+        double promedio = (nota1 + nota2 + nota3) / 3.0;
+
+        // Mostrar el promedio obtenido
+        System.out.println("Promedio: " + promedio);
+
+        // Validación de aprobación (>= 60)
+        if (promedio >= 60.0) {
+            System.out.println("¡El estudiante aprobó!");
+        } else {
+            System.out.println("El estudiante no aprobó.");
+        }
     }
 
+    
+
+    
+    
+    
+    
+    
     public static void estructuraBaseEjercicio23() {
         int[] numeros = {10, 25, 30, 42, 55};
 
