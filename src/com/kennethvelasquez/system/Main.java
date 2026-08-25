@@ -21,6 +21,7 @@ public class Main {
     public static void estructuraBaseEjercicio23() {
         int[] numeros = {10, 25, 30, 42, 55};
 
+
         for (int numero : numeros) {
             System.out.println(numero);
         }
@@ -43,7 +44,6 @@ public class Main {
         } else {
             System.out.println("Reprobado");
         }
-
     }
 
 }
