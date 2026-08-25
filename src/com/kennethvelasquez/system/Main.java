@@ -10,6 +10,7 @@ public class Main {
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
         // estructuraBaseEjercicio1();
+         estructuraBaseEjercicio7();
 
         estructuraBaseEjercicio29();
         
