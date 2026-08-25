@@ -1,14 +1,14 @@
+
 package com.kennethvelasquez.system;
 
+import java.util.Scanner;
 
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // Cada alumno puede llamar temporalmente su método aquí para probarlo.
-        // Ejemplo:
-        // estructuraBaseEjercicio1();
+      estructuraBaseEjercicio28();
 
     }
 
@@ -220,7 +220,7 @@ public class Main {
      * --body "Se calculó el promedio de tres notas y se agregó una validación para determinar si el estudiante aprobó."
      */
     public static void estructuraBaseEjercicio10() {
-
+        
     }
 
 
@@ -244,8 +244,11 @@ public class Main {
      * --body "Se agregó una estructura condicional para mostrar el día de la semana correspondiente a un número."
      */
     public static void estructuraBaseEjercicio11() {
-
+     
     }
+
+         
+    
 
 
     /**
@@ -605,9 +608,16 @@ public class Main {
      * --title "Resolver problema 28" \
      * --body "Se implementó una condición para asignar un bono dependiendo del salario del trabajador."
      */
-    public static void estructuraBaseEjercicio28() {
+     public static void estructuraBaseEjercicio28() {
+        double salario = 2500;
 
+        if (salario < 3000) {
+              salario += 500;
+        }
+
+        System.out.println("Salario final: Q" + salario);
     }
+
 
 
     /**
