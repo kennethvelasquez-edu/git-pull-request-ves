@@ -1,5 +1,7 @@
 package com.kennethvelasquez.system;
 
+import java.util.Scanner;
+
 
 
 public class Main {
@@ -10,7 +12,7 @@ public class Main {
         // Ejemplo:
         // estructuraBaseEjercicio1();
 
-    }
+}    
 
 
     /**
@@ -659,37 +661,20 @@ public class Main {
     }
 
 
-    /**
-     * Problema 31:
-     * Define un número entero positivo y cuenta cuántos números
-     * existen desde 1 hasta ese número.
-     *
-     * Debes mostrar cada número utilizando un ciclo.
-     *
-     * Ejemplo:
-     * numero = 5
-     *
-     * 1
-     * 2
-     * 3
-     * 4
-     * 5
-     *
-     * Al resolver el problema y comprobar que ejecuta correctamente,
-     * borra esta sección del comentario.
-     *
-     * git add Main.java
-     * git commit -m "feat: resolver problema 31 conteo numeros"
-     * git push origin rama_destino
-     *
-     * gh pr create --base tu-rama --head rama_destino \
-     * --title "Resolver problema 31" \
-     * --body "Se implementó un ciclo que muestra todos los números desde uno hasta un límite definido."
-     */
-    public static void estructuraBaseEjercicio31() {
 
+    public static void estructuraBaseEjercicio31() {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Ingresa un número entero positivo: ");
+    int numero = scanner.nextInt();
+
+    for (int i = 1; i <= numero; i++) {
+        System.out.println(i);
     }
 
+    scanner.close();
+}
+    }
 
     /**
      * Problema 32:
@@ -718,5 +703,3 @@ public class Main {
     public static void estructuraBaseEjercicio32() {
 
     }
-
-}
