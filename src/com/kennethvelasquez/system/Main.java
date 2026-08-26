@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Main {
 
 public static void main(String args []){
-   
-
+  
     
 
+    
+  
         estructuraBaseEjercicio23();
         // Cada alumno puede llamar temporalmente su método aquí para probarlo.
         // Ejemplo:
